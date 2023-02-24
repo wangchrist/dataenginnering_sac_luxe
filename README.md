@@ -27,7 +27,7 @@ Voici les étapes à suivre:
 -Cloner le lien de notre git avec la commande suivante : 
 
  ```
-> git clone https://git.esiee.fr/wangch/projet-dataenginneering.git
+> git clone https://github.com/wangchrist/dataenginnering_sac_luxe.git
 
 ```
 -Ouvrir le dossier **scrapy_mongodb_app** dans Visual Studio code.
