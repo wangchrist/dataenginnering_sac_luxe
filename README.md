@@ -122,6 +122,15 @@ L'application web **Breaking Bags** affiche une barre de recherche :
 
 -On va voir l'affichage de deux colonnes : la colonne gauche représente les sacs neuf qu'on a scrapé sur Mytheresa et la colonne droite représente les sacs seconde main provenant de Vestiairecollective.
 
+## Problèmes rencontrés
+
+Lorsqu'on lance les deux fichiers de scraping mytheresa_scrape et vestiaire_scrape, nous obtenons des resultats très différentes:
+
+Christine (Mac 2022):des fois 48 items dans le json ou alors environs 4800 pour vestiaire collective , et 89 items ou alors des 4020 pour mytheresa.
+
+Evelyne(Acer): elle obtient des resultats très constant 5040 pour vestiaire collective et 4020 pour mytheresa.
+
+On ne sait pas trop la raison.
 
 ## Copyright
 
