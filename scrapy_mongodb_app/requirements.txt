@@ -1,6 +1,0 @@
-selenium 
-scrapy
-json
-pymongo 
-flask  
-flask_pymongo
