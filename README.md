@@ -30,7 +30,7 @@ Voici les étapes à suivre:
 > git clone https://github.com/wangchrist/dataenginnering_sac_luxe.git
 
 ```
--Ouvrir le dossier **scrapy_mongodb_app** dans Visual Studio code.
+-Ouvrir le dossier **dataenginnering_sac_luxe** dans Visual Studio code.
 Vous avez un fichier requirement.txt qui vous indique les packages necessaires pour que le projet fonctionne.
 Pour les installer: `pip install -r requirements.txt`.
 
@@ -74,7 +74,7 @@ vous allez voir que dans le terminale, on va vous fournir un lien il suffit de c
 Eléments présents dans le dépots git :
 
 
-**Dans le dossier scrapy_mongodb_app:**
+
 Pour le scraping: ces deux fichiers vont créer deux fichiers json 
 
 -vestiaire_scrape.py
