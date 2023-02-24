@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        h1.titre{
+      font: italic 1.2em "Fira Sans", serif;
+      color:#ef8590;
+      font-size: 50px;
+      width: 900px; 
+      margin: 0 auto; 
+      text-align: center; 
+      background-color: none; 
+
+    }
+        p.description_site{
+      font: italic 1.2em "Fira Sans", serif;
+      color:#f1a0a8;
+      font-size: 20px;
+      width: 700px; 
+      margin: 0 auto; 
+      text-align: center; 
+      background-color: none;      
+
+    }
+        body {
+      background-image: url("/static/background.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+
+
+
+        form input[type="text"] {
+    width: 600px;
+    background-color: #FCE8EA;
+    color: #000000;
+    border: solid;
+    border-color: #f7c4c9;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 60px;
+   }
+        
+        
+
+
+        
+        form button[type="submit"] {
+    background-color: #ef8590;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+        form button[type="submit"]:hover {
+    background-color: #f7c4c9;
+    }
+        
+        
+    div.document1 {
+        display: block;
+        float: right;
+        
+        padding: 5px;
+        border: 4mm ridge #f1a0a8;
+        width: 550px;
+    }
+    div.document2 {
+        display: block;
+        float: left;
+        margin-top: -0px;
+        padding: 5px;
+        border: 4mm ridge #f1a0a8;
+        width: 550px;
+    }
+
+
+
+
+    </style>
+    <title>Comparateur de sacs</title>
+    
+<body >
+    <h1 class="titre" >Breaking bags: votre comparateur de sacs</h1>
+	<br>
+    
+	<p class="description_site">
+		Trouvez le sac qui vous satisfait le mieux en comparant les sacs du site Mytheresa à celui de Vestiaire Collective.<br>
+		Commencez par entrer dans la barre de recherche une caratéristique (type de sac, marque, modèle, matière, couleur).<br>
+		
+	</p>
+    
+	<br>
+    
+        
+        
+        
+      
+        
+       
+    <form  class="form-inline" action="/search" method="post" style="text-align: center;">
+            
+        <input type="text" class="form-control" name="query" value="{{ query }}" placeholder="Veuillez entrer votre sac de rêve">
+
+       
+            
+              
+             
+              
+          
+            
+        
+    	<button type="submit" class="btn btn-primary mb-3">Rechercher</button>
+        
+        
+    </form>
+    
+    {% block content %}
+    {% endblock %}
+    
+    
+        
+        
+        
+      
+    
+</body>
+</html>
