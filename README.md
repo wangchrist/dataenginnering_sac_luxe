@@ -151,5 +151,5 @@ On ne sait pas trop la raison.
 ## Copyright
 
 Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes.
-# dataenginnering_sac_luxe
+
 
