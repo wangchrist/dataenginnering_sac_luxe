@@ -1,4 +1,6 @@
-# dataenginnering_sac_luxe
+# Projetdataenginnering_sac_luxe
+
+
 
 ## Introduction
 
@@ -27,7 +29,7 @@ Voici les étapes à suivre:
 -Cloner le lien de notre git avec la commande suivante : 
 
  ```
-> git clone https://github.com/wangchrist/dataenginnering_sac_luxe.git
+> git clone https://git.esiee.fr/wangch/projet-dataenginneering.git
 
 ```
 -Ouvrir le dossier **dataenginnering_sac_luxe** dans Visual Studio code.
@@ -58,9 +60,23 @@ Explication de la methode de scraping:
 A la fin des deux scraping vous allez voir l'apparition de deux fichiers json:  data_mt et data_vc qui correspondent respectivement aux données de Mytheresa et de Vestiairecollective.
 
 -Executer le fichier mongoDB.py: ce fichier va créer la database sac_luxe et c'est dans cette database qu'on va créer deux collections: sac_mt et sac_vc .
+
+Voici ce que vous obtiendrez :
+
+![alt text](data_base_et_collections.png)
+
 Dans sac_mt on va inserer le fichier data_mt.json ou les données seront les documents. Et on fait la même chose pour sac_vc avec le fichier data_vc.json.
+
+Aperçu des fichiers data_mt.json et data_vc.json crées :
+
+![alt text](data_mt.png)
+
+![alt text](data_vc.png)
+
+
 Puis on a remarque que sac à anses et sac à main présentent le même type de sac donc on a decidé de garder sac à main comme catégorie et changer **sac à anses** en **sac à main**.
 Enfin, on a crée les indexes afin d'utiliser le full text search de MongoDB pour monter le moteur de rechercher.
+
 
 -Lancer le fichier app.py:
 vous allez voir que dans le terminale, on va vous fournir un lien il suffit de cliquer pour acceder à l'application flask :"Running on http://127.0.0.1:5000"
@@ -95,7 +111,7 @@ Pour l'application à lancer:
 Un dossier **static** (dossier contenant les images qu'on a utilisé pour l'affichage):background.jpeg
 [Image](https://www.istockphoto.com/fr/vectoriel/abstrait-rose-blush-fond-aquarelle-liquide-avec-des-lignes-dorées-des-points-et-gm1330963152-414239373)
 
-**Hors du dossier scrapy_mongodb_app:**
+
 
 -On a le README.md qui explique le projet.
 
@@ -135,6 +151,5 @@ On ne sait pas trop la raison.
 ## Copyright
 
 Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes.
-
-
+# dataenginnering_sac_luxe
 
